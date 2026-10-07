@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz | Digital Entertainment Museum</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="quiz">
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand"><span class="brand-mark">D</span> Digital Entertainment Museum</div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="timeline.html">Timeline</a>
+          <a href="gaming.html">Gaming</a>
+          <a href="streaming.html">Streaming</a>
+          <a href="impact.html">Impact</a>
+          <a href="future.html">Future</a>
+          <a href="quiz.html">Quiz</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="page-header">
+        <p class="eyebrow">Check your learning</p>
+        <h1>Test Your Knowledge</h1>
+      </section>
+
+      <section class="section">
+        <form id="quiz-form" class="quiz-shell">
+          <div class="quiz-item">
+            <h3>1. What was the Magnavox Odyssey?</h3>
+            <div class="answer-row">
+              <label><input type="radio" name="q1" value="a" /> A streaming app</label>
+              <label><input type="radio" name="q1" value="b" /> One of the earliest home video game systems</label>
+              <label><input type="radio" name="q1" value="c" /> A music platform</label>
+              <label><input type="radio" name="q1" value="d" /> A future headset</label>
+            </div>
+          </div>
+
+          <div class="quiz-item">
+            <h3>2. Which change helped gaming move into homes?</h3>
+            <div class="answer-row">
+              <label><input type="radio" name="q2" value="a" /> Printed books</label>
+              <label><input type="radio" name="q2" value="b" /> DVD players</label>
+              <label><input type="radio" name="q2" value="c" /> Downloading apps</label>
+              <label><input type="radio" name="q2" value="d" /> Home consoles</label>
+            </div>
+          </div>
+
+          <div class="quiz-item">
+            <h3>3. What is streaming?</h3>
+            <div class="answer-row">
+              <label><input type="radio" name="q3" value="a" /> Watching or listening to content online on demand</label>
+              <label><input type="radio" name="q3" value="b" /> Writing code in a class</label>
+              <label><input type="radio" name="q3" value="c" /> Reading a printed comic book</label>
+              <label><input type="radio" name="q3" value="d" /> Playing on a board game</label>
+            </div>
+          </div>
+
+          <div class="quiz-item">
+            <h3>4. Why is digital entertainment important for society?</h3>
+            <div class="answer-row">
+              <label><input type="radio" name="q4" value="a" /> It makes paper less useful</label>
+              <label><input type="radio" name="q4" value="b" /> It keeps people offline</label>
+              <label><input type="radio" name="q4" value="c" /> It helps people communicate, play, and learn</label>
+              <label><input type="radio" name="q4" value="d" /> It replaces all school lessons</label>
+            </div>
+          </div>
+
+          <div class="quiz-item">
+            <h3>5. Which future technology is mentioned in the website?</h3>
+            <div class="answer-row">
+              <label><input type="radio" name="q5" value="a" /> Typewriters</label>
+              <label><input type="radio" name="q5" value="b" /> VR, AR, and AI</label>
+              <label><input type="radio" name="q5" value="c" /> Landline phones</label>
+              <label><input type="radio" name="q5" value="d" /> Sewing machines</label>
+            </div>
+          </div>
+
+          <button type="submit" class="submit-btn">Check My Score</button>
+          <div id="quiz-result" class="quiz-result" aria-live="polite">Your Score: 0/5</div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer container">Digital Entertainment Museum</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
